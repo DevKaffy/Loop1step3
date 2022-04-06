@@ -1,0 +1,60 @@
+body {
+background-color:aqua;
+display:grid;
+place-items: center;
+padding-top: 5rem;
+padding-bottom: 5rem;
+}
+
+
+.content {
+    background-color: white;
+    width: 40vw;
+    height:60vh;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    box-shadow: 0px 32px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+
+.container{
+    margin:2rem 4rem 0 4rem;
+}
+.wheel{
+    display:flex;
+    justify-content: space-between;
+}
+
+.order{
+    color:darkgray;
+    padding-bottom: 1rem;
+}
+
+.vintage{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color:dimgray;
+}
+.display{
+    display:flex;
+    justify-content:space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color:dimgray;
+}
+.total {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+    color:dimgray;
+}
+.bicycle img{
+    width:100%;
+    height:20rem;
+    align-content:center;
+    margin-top: -5rem;
+}
